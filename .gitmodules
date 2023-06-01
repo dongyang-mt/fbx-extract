@@ -1,3 +1,9 @@
+[submodule "OpenFBX"]
+	path = OpenFBX
+	url = https://github.com/nem0/OpenFBX.git
 [submodule "glm"]
 	path = glm
 	url = https://github.com/g-truc/glm.git
+[submodule "bigg"]
+	path = bigg
+	url = https://github.com/JoshuaBrookover/bigg.git
