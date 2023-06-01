@@ -15,6 +15,7 @@ ADD_EXECUTABLE(${CMAKE_PROJECT_NAME} ${SOURCES})
 # Get the GLM environment variable. Since GLM is a header-only library, we
 # just need to add it to the include directory.
 SET(GLM_INCLUDE_DIR "$ENV{GLM_INCLUDE_DIR}")
+SET(GLM_INCLUDE_DIR "glm")
 IF(NOT GLM_INCLUDE_DIR)
 	# The environment variable was not set
 	SET(ERR_MSG "Please point the environment variable GLM_INCLUDE_DIR to the root directory of your GLM installation.")
